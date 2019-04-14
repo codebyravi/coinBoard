@@ -1,8 +1,7 @@
 {
-  "name": "WHATCoin WHICHCoin",
-  "short_name": "WCWC",
-  "icons": [
-    {
+  "name": "Coin Board",
+  "short_name": "CB",
+  "icons": [{
       "src": "/assets/icons/Icon-48.png",
       "type": "image/png",
       "sizes": "48x48"
@@ -42,8 +41,8 @@
   "scope": ".",
   "display": "fullscreen",
   "orientation": "portrait-primary",
-  "background_color": "#1B98E0",
-  "theme_color": "#1B98E0",
+  "background_color": "#FFDE03",
+  "theme_color": "#FFDE03",
   "description": "Crypto currency price dashboard",
   "dir": "ltr",
   "lang": "en-US"

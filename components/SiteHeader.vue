@@ -3,12 +3,9 @@
     <header class="site-header">
       <h1>
         <nuxt-link to="/">
-          <span style="color:#FFED65;">WHAT</span>Coin <span style="color:#FFED65;">WHICH</span>Coin
+          <span style="color:#FBEEC1;">Coin Board</span>
         </nuxt-link>
       </h1>
-      <figure class="coin-logo">
-        <img src="~/static/logos/bitstamp.png" alt="Bitstamp">
-      </figure>
     </header>
   </div>
 </template>
@@ -25,7 +22,7 @@ export default {
 <style lang="sass" scoped>
 
 h1
-  font-family: VT323
+  font-family: 'Slabo 27px', serif
   font-size: 1.8em
   margin: 0
   width: fit-content

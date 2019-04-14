@@ -1,7 +1,10 @@
 <template>
   <div>
     <div class="lds-ellipsis">
-      <div /><div /><div /><div />
+      <div/>
+      <div/>
+      <div/>
+      <div/>
     </div>
   </div>
 </template>
@@ -28,7 +31,7 @@ export default {
   width: 11px
   height: 11px
   border-radius: 50%
-  background: #1B98E0
+  background: #FFDE03
   animation-timing-function: cubic-bezier(0, 1, 1, 0)
 
 .lds-ellipsis div:nth-child(1)

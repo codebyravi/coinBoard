@@ -1,13 +1,12 @@
 {
   "links": {
     "home": "Home",
-    "english": "English version",
-    "portuguese": "portuguese version"
+    "english": "English version"
   },
   "home": {
-    "title": "What Coin Which Coin",
-    "description": "WHAT Coin WHICH Coin is crypto currency price dashboard showing Bitcoin, XRP, Litecoin, Bitcoin Cash. designed to view prices at a glance from various cryto currency exchanges around the world. The Prices are real-time data, sourced from the respective providers public API.",
-    "built-with": "Built with VueJs by Mannuel Ferreira",
+    "title": "Coin Board",
+    "description": "Coin Board is a dashboard that displays crypto currency prices like Bitcoin, XRP, Litecoin, Bitcoin Cash. It is designed to view prices at a glance from various cryto currency exchanges around the world, and the prices are real-time data, sourced from the respective providers public API.",
+    "built-with": "Built with VueJs by Ravi Valluri",
     "say-hello": "say hello.",
     "fork-it": "Fork it."
   }

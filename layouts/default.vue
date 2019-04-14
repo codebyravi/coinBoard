@@ -1,8 +1,8 @@
 <template>
   <div>
-    <site-header />
-    <nuxt />
-    <site-footer />
+    <site-header/>
+    <nuxt/>
+    <site-footer/>
   </div>
 </template>
 <script>
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="sass">
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,600,700|Roboto+Mono:100,300|VT323')
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px')
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css')
 @import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css')
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
@@ -34,8 +34,8 @@ $fontRegular: 500
 $fontBold: 700
 
 $babyPowder: #FDFFF7
-$blockBtnHover: #EDEDED
-$brightCerulean: #1B98E0
+$blockBtnHover: #FF0266
+$brightCerulean: #FFDE03
 $burntOrange: #FF5E5B
 $charcoal: #373F51
 $darkLiver: #50514F
@@ -44,13 +44,20 @@ $maximumBluePurple: #B4ADEA
 $mediumAquamarine: #59FFA0
 $richBlack: #001021
 $white: #FFF
+$richBlue: #0336FF
+$natural: #659DBD
+$earthy: #DAAD86
+$clean: #BC986A
+$land: #8D8741
+$light: #FBEEC1
+$white: #FFFFFF
 
 body
   background: $babyPowder
 
 #app
   font-family: $defaultFont
-  color: $richBlack
+  color: $light
 
 .container
   display: grid
@@ -62,7 +69,7 @@ body
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr))
 
 .site-header
-  background-color: $brightCerulean
+  background-color: $natural
   color: $white
   grid-area: header
   padding: 0.6em
@@ -75,21 +82,22 @@ body
   grid-template-columns: 200px 1fr
   justify-content: center
   padding: 0
+  background-color: $clean
 
 a
-  color: $darkLiver
+  color: $light
 
   &:hover
-    color: $richBlack
+    color: $white
 
   &:visited
-    color: $darkLiver
+    color: $light
 
 .block
   padding: 0
 
   &__btn--std
-    border-left: 10px solid $babyPowder
+    border-left: 10px solid $land
     display: grid
     font-size: 2em
     grid-gap: 0
@@ -98,8 +106,8 @@ a
     transition: all 0.5s ease-out
 
     &:hover
-      background: $blockBtnHover
-      border-left: 5px solid $brightCerulean
+      background: $land
+      border-left: 5px solid $light
       transition: all 0.5s ease-out
 
   &__btn--coin
@@ -123,9 +131,9 @@ a
 
 .about-site, .footer-note
   padding: 1em
-  background-color: $mediumAquamarine
+  background-color: $natural
   p
     margin-bottom: 0
-    color: $richBlack
-
+    color: $light
+ 
 </style>

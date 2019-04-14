@@ -50,7 +50,7 @@ const colors = {
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
   grey: '#b8c2cc',
-  'grey-light': '#dae1e7',
+  'grey-light': '#0336FF',
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
   white: '#ffffff',
@@ -406,7 +406,9 @@ module.exports = {
   |
   */
 
-  borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
+  borderColors: global.Object.assign({
+    default: colors['grey-light']
+  }, colors),
 
   /*
   |-----------------------------------------------------------------------------

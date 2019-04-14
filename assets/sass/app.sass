@@ -9,8 +9,8 @@ $fontRegular: 500
 $fontBold: 700
 
 $babyPowder: #FDFFF7
-$blockBtnHover: #EDEDED
-$brightCerulean: #1B98E0
+$blockBtnHover: #FF0266
+$brightCerulean: #FFDE03
 $burntOrange: #FF5E5B
 $charcoal: #373F51
 $darkLiver: #50514F
@@ -18,13 +18,21 @@ $maize: #FFED65
 $maximumBluePurple: #B4ADEA
 $mediumAquamarine: #59FFA0
 $richBlack: #001021
+$richBlue: #0336FF
+$babyPink: #FF0266
+$natural: #659DBD
+$earthy: #DAAD86
+$clean: #BC986A
+$land: #8D8741
+$light: #FBEEC1
+$white: #FFFFFF
 
 body
   background: $babyPowder
 
 #app
   font-family: $defaultFont
-  color: $darkLiver
+  color: $light
 
 .container
   display: grid;
@@ -37,7 +45,7 @@ body
 
 .site-header
   background-color: $maize
-  color: $brightCerulean
+  color: $natural
   grid-area: header
   padding: 0.5em
 
@@ -47,21 +55,22 @@ body
   grid-template-columns: 200px 1fr
   justify-content: center
   padding: 0
+  background-color: $clean
 
 a
-  color: $darkLiver
+  color: $light
 
   &:hover
-    color: $richBlack
+    color: $white
 
   &:visited
-    color: $darkLiver
+    color: $light
 
 .block
   padding: 0
 
   &__btn--std
-    border-left: 10px solid $babyPowder
+    border-left: 10px solid $land
     display: grid
     font-size: 2em
     grid-gap: 0
@@ -70,8 +79,8 @@ a
     transition: all 0.5s ease-out
 
     &:hover
-      background: $blockBtnHover
-      border-left: 5px solid $brightCerulean
+      background: $land
+      border-left: 5px solid $light
       transition: all 0.5s ease-out
 
   &__btn--coin

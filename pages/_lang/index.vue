@@ -1,29 +1,23 @@
 <template>
   <div class="home">
     <div id="nav">
-      <BitStampBtc @click.native="goToBitcoin" />
-      <BitStampBch @click.native="goToBitcoinCash" />
-      <BitStampEth @click.native="goToEtherium" />
-      <BitStampXrp @click.native="goToXrp" />
-      <BitStampLtCoin @click.native="goToLtCoin" />
+      <BitStampBtc @click.native="goToBitcoin"/>
+      <BitStampBch @click.native="goToBitcoinCash"/>
+      <BitStampEth @click.native="goToEtherium"/>
+      <BitStampXrp @click.native="goToXrp"/>
+      <BitStampLtCoin @click.native="goToLtCoin"/>
     </div>
     <div class="about-site">
-      <p>
-        {{ $t('home.description') }}
-      </p>
+      <p>{{ $t('home.description') }}</p>
     </div>
     <div class="footer-note">
       <p>
         {{ $t('home.built-with') }}
-        <a href="https://mannuelferreira.com">
-          <strong>
-            {{ $t('home.say-hello') }}
-          </strong>
+        <a href="https://codebyravi.com">
+          <strong>{{ $t('home.say-hello') }}</strong>
         </a>
-        <a href="https://github.com/mannuelf/whatcoinwhichcoin">
-          <strong>
-            {{ $t('home.fork-it') }}
-          </strong>
+        <a href="https://github.com/codebyravi/coinboard.git">
+          <strong>{{ $t('home.fork-it') }}</strong>
         </a>
       </p>
     </div>

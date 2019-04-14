@@ -1,8 +1,8 @@
 {
-  "name": "whatcoinwhichcoin",
+  "name": "coinboard",
   "version": "1.0.0",
-  "description": "WHAT Coin WHICH Coin is crypto currency price dashboard showing Bitcoin, XRP, Litecoin, Bitcoin Cash. designed to view prices at a glance from various cryto currency exchanges around the world.",
-  "author": "Mannuel Ferreira",
+  "description": "Coin Board is a dashboard that displays crypto currency prices like Bitcoin, XRP, Litecoin, Bitcoin Cash.",
+  "author": "Ravi Valluri",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
