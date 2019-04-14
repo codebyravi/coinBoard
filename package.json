@@ -51,7 +51,7 @@
     "jest": "^23.6.0",
     "nodemon": "^1.18.9",
     "prettier": "1.14.3",
-    "rollbar-sourcemap-webpack-plugin": "^2.5.0",
+    "rollbar-sourcemap-webpack-plugin": "^2.5.1",
     "tailwindcss": "^0.7.0",
     "vue-jest": "^3.0.2"
   }
